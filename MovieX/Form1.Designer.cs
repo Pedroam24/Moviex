@@ -32,6 +32,10 @@
             this.txt1 = new System.Windows.Forms.TextBox();
             this.txt2 = new System.Windows.Forms.TextBox();
             this.btn1 = new System.Windows.Forms.Button();
+            this.btn2 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // txt1
@@ -44,7 +48,7 @@
             this.txt1.Name = "txt1";
             this.txt1.Size = new System.Drawing.Size(142, 27);
             this.txt1.TabIndex = 0;
-            this.txt1.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
+            this.txt1.TextChanged += new System.EventHandler(this.txt1_TextChanged);
             // 
             // txt2
             // 
@@ -54,8 +58,10 @@
             this.txt2.Location = new System.Drawing.Point(329, 156);
             this.txt2.Multiline = true;
             this.txt2.Name = "txt2";
+            this.txt2.PasswordChar = '*';
             this.txt2.Size = new System.Drawing.Size(142, 23);
             this.txt2.TabIndex = 1;
+            this.txt2.TextChanged += new System.EventHandler(this.txt2_TextChanged);
             // 
             // btn1
             // 
@@ -69,6 +75,54 @@
             this.btn1.UseVisualStyleBackColor = false;
             this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
+            // btn2
+            // 
+            this.btn2.BackColor = System.Drawing.Color.Transparent;
+            this.btn2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btn2.Location = new System.Drawing.Point(353, 215);
+            this.btn2.Name = "btn2";
+            this.btn2.Size = new System.Drawing.Size(96, 23);
+            this.btn2.TabIndex = 3;
+            this.btn2.Text = "Create account";
+            this.btn2.UseVisualStyleBackColor = false;
+            this.btn2.Click += new System.EventHandler(this.btn2_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.Location = new System.Drawing.Point(204, 125);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(82, 15);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "User or Email";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label2.Location = new System.Drawing.Point(213, 164);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(61, 15);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "Password";
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.BackColor = System.Drawing.Color.Transparent;
+            this.checkBox1.Location = new System.Drawing.Point(477, 156);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox1.TabIndex = 12;
+            this.checkBox1.UseVisualStyleBackColor = false;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -76,6 +130,10 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn1);
             this.Controls.Add(this.txt2);
             this.Controls.Add(this.txt1);
@@ -93,6 +151,10 @@
         private System.Windows.Forms.TextBox txt1;
         private System.Windows.Forms.TextBox txt2;
         private System.Windows.Forms.Button btn1;
+        private System.Windows.Forms.Button btn2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 

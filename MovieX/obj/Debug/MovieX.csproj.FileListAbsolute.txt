@@ -10,3 +10,23 @@ C:\Users\Alunos\Desktop\pe2025\cs msk\MovieX\obj\Debug\MovieX.csproj.GenerateRes
 C:\Users\Alunos\Desktop\pe2025\cs msk\MovieX\obj\Debug\MovieX.csproj.CoreCompileInputs.cache
 C:\Users\Alunos\Desktop\pe2025\cs msk\MovieX\obj\Debug\MovieX.exe
 C:\Users\Alunos\Desktop\pe2025\cs msk\MovieX\obj\Debug\MovieX.pdb
+C:\Users\Alunos\Source\Repos\Moviex\MovieX\bin\Debug\MovieX.exe.config
+C:\Users\Alunos\Source\Repos\Moviex\MovieX\bin\Debug\MovieX.exe
+C:\Users\Alunos\Source\Repos\Moviex\MovieX\bin\Debug\MovieX.pdb
+C:\Users\Alunos\Source\Repos\Moviex\MovieX\obj\Debug\MovieX.csproj.AssemblyReference.cache
+C:\Users\Alunos\Source\Repos\Moviex\MovieX\obj\Debug\MovieX.Form1.resources
+C:\Users\Alunos\Source\Repos\Moviex\MovieX\obj\Debug\MovieX.Form2.resources
+C:\Users\Alunos\Source\Repos\Moviex\MovieX\obj\Debug\MovieX.Properties.Resources.resources
+C:\Users\Alunos\Source\Repos\Moviex\MovieX\obj\Debug\MovieX.csproj.GenerateResource.cache
+C:\Users\Alunos\Source\Repos\Moviex\MovieX\obj\Debug\MovieX.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Source\Repos\Moviex\MovieX\obj\Debug\MovieX.exe
+C:\Users\Alunos\Source\Repos\Moviex\MovieX\obj\Debug\MovieX.pdb
+C:\Users\Alunos\Source\Repos\Moviex\MovieX\obj\Debug\MovieX.Form4.resources
+C:\Users\Alunos\Source\Repos\Moviex\MovieX\obj\Debug\Interop.WMPLib.dll
+C:\Users\Alunos\Source\Repos\Moviex\MovieX\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Alunos\Source\Repos\Moviex\MovieX\obj\Debug\MovieX.csproj.ResolveComReference.cache
+C:\Users\Alunos\Source\Repos\Moviex\MovieX\bin\Debug\Interop.WMPLib.dll
+C:\Users\Alunos\Source\Repos\Moviex\MovieX\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Alunos\Source\Repos\Moviex\MovieX\obj\Debug\MovieX.Form5.resources
+C:\Users\Alunos\Source\Repos\Moviex\MovieX\obj\Debug\MovieX.Form6.resources
+C:\Users\Alunos\Source\Repos\Moviex\MovieX\obj\Debug\MovieX.Form7.resources
